@@ -29,7 +29,7 @@ def index():
     """
     hello = os.environ.get('NAME_HELLO',None)
     if not hello:
-        hello='Tu variable de entorno "NAME_HELLO" no se cargo correctamente'
+        hello='Tu variable de entorno "NAME_HELLO" no se cargo correctamente'  
     else:
         hello = 'Hola {}'.format(hello)
     return u'{}'.format(hello)

@@ -10,4 +10,4 @@
 
 
 # Nota:
-En los comentarios del file docker-compose.yml estan los puntos a resolver
+En los comentarios del file docker-compose.yml estan los puntos a resolver  
