@@ -50,7 +50,7 @@ services:
       MYSQL_PASSWORD:  ${mypassword}
     volumes:
       - ./db:/docker-entrypoint-initdb.d/:ro
-      - ./../var/lib/mysql
+      - ./../var/lib/mysql 
 
  
 
