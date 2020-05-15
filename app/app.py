@@ -25,7 +25,7 @@ def get_connection():
 def index():
     """
     Web's homepage
-    :return: HTTP response
+    :return: HTTP response  
     """
     hello = os.environ.get('NAME_HELLO',None)
     if not hello:

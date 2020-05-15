@@ -11,5 +11,5 @@ COPY app.py /app
 
 EXPOSE 5000
 
-CMD python app.py
+CMD python app.py  
 
